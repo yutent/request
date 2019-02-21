@@ -15,7 +15,7 @@ Promise based HTTP client for the modern browser(IE10+, chrome 40+, ff 38+, safa
 
 ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png) |
 --- | --- | --- | --- | --- | --- |
-Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 10 ✔ |
+Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 10+ ✔ |
 
 
 
@@ -117,16 +117,7 @@ request.upload('/upload', {
 
 ### request.open(url`<String>`[, method`<String>`, param`<Object>`])
 > Launch a request by self config.
->> - url`<String>`.  
->> - method`<String>`.
->> - param`<Object>`.
->>>  + headers: `<Object>`. 
->>>  + data: `<Object>|<String>|<Number>|<DOM FORM>|<FormData>`.
->>>  + dataType: `<Object>`. Tell what type response should be parsed
->>>  + formType: `<String>`.   form`(default)` | form-data | json | text
->>>  + cache: `<Bollean>`. default `true`
->>>  + withCredentials: `<Bollean>`.  default `false`
->>>  + timeout: `<Number>`. default `0`
+
 
 ```js
 request.open('/article', 'GET', { 
